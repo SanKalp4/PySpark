@@ -9,14 +9,22 @@ The objective is to predict whether a person will have cardiac arrest or not bas
 Features/Attributes
 
 ID-Patient ID
+
 Gender
+
 Age
 Hypertension
+
 Heart disease
+
 Job type
+
 Residence type
+
 Blood sugar level
+
 Body mass index
+
 Smoking status
 
 `Target`  
