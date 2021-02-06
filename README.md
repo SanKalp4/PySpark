@@ -11,21 +11,13 @@ Features/Attributes
 `ID-Patient ID
 
 Gender
-
 Age
-
 Hypertension
-
 Heart disease
-
 Job type
-
 Residence type
-
 Blood sugar level
-
 Body mass index
-
 Smoking status
 
 `Target`  
