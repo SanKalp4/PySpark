@@ -8,8 +8,7 @@ The objective is to predict whether a person will have cardiac arrest or not bas
 
 Features/Attributes
 
-`ID-Patient ID
-
+ID-Patient ID
 Gender
 Age
 Hypertension
