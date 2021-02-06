@@ -30,3 +30,6 @@ Smoking status
 `Target`  
 
 Cardiac arrest-  ‘Yes’-0  ‘No’-1
+
+N.B. Used Synthetic Minorty OverSampling Technique to achieve a higher AUC but best practice is to undersample the majority class and then use with SMOTE. SMOTE does not consider the effect of majority class which is a disadvantage which may give promising model but not perform that greatly with realworld test data. 
+Without SMOTE , LR is pulling up an AUC score of 0.83.
