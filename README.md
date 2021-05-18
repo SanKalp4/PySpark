@@ -6,30 +6,31 @@ This project revolves around devicing ml techniques using Pyspark to predict the
 
 The objective is to predict whether a person will have cardiac arrest or not based on certain attributes like demographics, health conditions etc.
 
-Features/Attributes
+- Features/Attributes
 
-ID-Patient ID
+```ID-Patient ID```
 
-Gender
+```Gender```
 
-Age
-Hypertension
+```Age```
 
-Heart disease
+```Hypertension```
 
-Job type
+```Heart disease```
 
-Residence type
+```Job type```
 
-Blood sugar level
+```Residence type```
 
-Body mass index
+```Blood sugar level```
 
-Smoking status
+```Body mass index```
 
-`Target`  
+```Smoking status```
 
-Cardiac arrest-  ‘Yes’-0  ‘No’-1
+-Target  
+
+```Cardiac arrest```  ‘Yes’-```0``` ‘No’-```1```
 
 N.B. Used Synthetic Minorty OverSampling Technique to achieve a higher AUC but best practice is to undersample the majority class and then use with SMOTE. SMOTE does not consider the effect of majority class which is a disadvantage which may give promising model but not perform that greatly with realworld test data. 
 Without SMOTE , LR is pulling up an AUC score of 0.83.
